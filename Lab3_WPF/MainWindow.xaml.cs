@@ -1,34 +1,31 @@
-﻿using System.Text;
+﻿using System;
+using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-
+using System.Windows.Media.Animation;
 
 namespace Lab3_WPF
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
+        private Page2 _page2 = new Page2();  // Создаём экземпляр страницы заранее
+
         public MainWindow()
         {
             InitializeComponent();
         }
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            MainFrame.Navigate(new Uri("Page2.xaml", UriKind.Relative));
-        }
 
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        private async void Button_Click(object sender, RoutedEventArgs e)
         {
+            // Скрываем начальную панель
+            StartPanel.Visibility = Visibility.Collapsed;
 
+            // Показываем Frame с небольшой задержкой
+            MainFrame.Visibility = Visibility.Visible;
+            MainFrame.Navigate(_page2); // Загружаем страницу
+
+            // Анимация плавного появления (fade-in)
+            var fadeIn = new DoubleAnimation(0, 1, TimeSpan.FromMilliseconds(500)); // 500ms для плавности
+            MainFrame.BeginAnimation(OpacityProperty, fadeIn);
         }
     }
 }

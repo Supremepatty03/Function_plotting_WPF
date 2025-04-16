@@ -1,20 +1,29 @@
 ﻿<Window x:Class="Lab3_WPF.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Lab3_WPF"
-        mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-        
-    <Grid RenderTransformOrigin="0.502,0.585">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="0*"/>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
-        <Button Content="Начать" FontSize="13"
-            Click="Button_Click" Width="150" Height="60" Grid.Column="1" Margin="0,187,0,187" HorizontalAlignment="Center" RenderTransformOrigin="-4.07,0.61" />
-        <TextBlock FontSize ="20" Height="80" Margin="0,0,4,354" Grid.Column="1"><Run Text="Данная програма предназначена для построения графика по формуле с изменяемыми коэфицентами"/><LineBreak/><Run Text="Выполнил Тарасов А.И. 433, Вариант-3."/></TextBlock>
-        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" />
+    <Grid>
+
+        <!-- Панель управления с кнопкой -->
+        <Grid x:Name="StartPanel">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock FontSize ="20" Height="80" Margin="10" Grid.Row="0">
+                <Run Text="Данная программа предназначена для построения графика по формуле с изменяемыми коэффициентами"/>
+                <LineBreak/>
+                <Run Text="Выполнил Тарасов А.И. 433, Вариант-3."/>
+            </TextBlock>
+
+            <Button Content="Начать" FontSize="13"
+                    Click="Button_Click"
+                    Width="150" Height="60" Grid.Row="1"
+                    VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        </Grid>
+
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Visibility="Collapsed" Opacity="0"/>
     </Grid>
 </Window>
