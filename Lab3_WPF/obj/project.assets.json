@@ -8,23 +8,23 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
-    "D:\\ms vs x86\\NuGetPackages": {}
+    "C:\\Users\\Вячеслав\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\Function_plotting_WPF\\Lab3_WPF\\Lab3_WPF.csproj",
+      "projectUniqueName": "C:\\Users\\Вячеслав\\Source\\Repos\\Function_plotting_WPF\\Lab3_WPF\\Lab3_WPF.csproj",
       "projectName": "Lab3_WPF",
-      "projectPath": "C:\\Users\\User\\Source\\Repos\\Function_plotting_WPF\\Lab3_WPF\\Lab3_WPF.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Source\\Repos\\Function_plotting_WPF\\Lab3_WPF\\obj\\",
+      "projectPath": "C:\\Users\\Вячеслав\\Source\\Repos\\Function_plotting_WPF\\Lab3_WPF\\Lab3_WPF.csproj",
+      "packagesPath": "C:\\Users\\Вячеслав\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Вячеслав\\Source\\Repos\\Function_plotting_WPF\\Lab3_WPF\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\ms vs x86\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Вячеслав\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

@@ -68,14 +68,17 @@ namespace Lab3_WPF
             Polyline upperGraph = new Polyline { Stroke = Brushes.Blue, StrokeThickness = 2 };
             Polyline lowerGraph = new Polyline { Stroke = Brushes.Blue, StrokeThickness = 2 };
 
+            Dictionary<double, List<Double>> values = new Dictionary<double, List<Double>>();
             for (double x = start; x <= end; x += step)
             {
+                values[x] = new List<Double>();
                 double y_upper = Cassini.CassiniUpper(x, a, c);
                 if (!double.IsNaN(y_upper))
                 {
                     double screenX = (x - start) * scaleX;
                     double screenYUpper = height - (y_upper - minY) * scaleY;
                     upperGraph.Points.Add(new Point(screenX, screenYUpper));
+                    values[x].Add(y_upper);
                 }
 
                 double y_lower = Cassini.CassiniLower(x, a, c);
@@ -84,6 +87,7 @@ namespace Lab3_WPF
                     double screenX = (x - start) * scaleX;
                     double screenYLower = height - (y_lower - minY) * scaleY;
                     lowerGraph.Points.Add(new Point(screenX, screenYLower));
+                    values[x].Add(y_lower);
                 }
             }
 
