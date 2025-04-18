@@ -19,8 +19,13 @@
 
         <Image Source="Images/function.png"
             Height="50" Width="200" Grid.Row="0" Margin="5"  >
-            
+
         </Image>
+
+        <CheckBox x:Name="ShowWelcomeCheckBox" Content="Показывать приветствие"
+                  Grid.Row="0" Margin="5" HorizontalAlignment="Right" IsChecked="{Binding ShowWelcomeScreen, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                  Checked="WelcomeCheckBox_Checked"
+                  Unchecked="WelcomeCheckBox_Unchecked"/>
 
         <StackPanel Orientation="Vertical" HorizontalAlignment="Right" Grid.Row="2">
             <StackPanel Orientation= "Horizontal" >

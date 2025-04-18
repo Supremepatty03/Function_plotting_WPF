@@ -21,6 +21,22 @@ namespace Lab3_WPF
         {
             InitializeComponent();
             Loaded += (_, __) => DrawGraph(); // Автоматически при загрузке
+            this.DataContext = Properties.Settings.Default;
+        }
+        private void Page2_Unloaded(object sender, RoutedEventArgs e)
+        {
+            Properties.Settings.Default.Save();
+        }
+        private void WelcomeCheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+            Properties.Settings.Default.ShowWelcomeScreen = true;
+            Properties.Settings.Default.Save();
+        }
+
+        private void WelcomeCheckBox_Unchecked(object sender, RoutedEventArgs e)
+        {
+            Properties.Settings.Default.ShowWelcomeScreen = false;
+            Properties.Settings.Default.Save();
         }
         private void PlotButton_Click(object sender, RoutedEventArgs e)
         {
