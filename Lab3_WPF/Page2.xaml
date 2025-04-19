@@ -22,15 +22,30 @@
 
         </Image>
 
+        <ScrollViewer 
+            Grid.Row="2" Height="100" Width="170" VerticalScrollBarVisibility="Auto"
+            HorizontalScrollBarVisibility="Disabled" Margin="10" HorizontalAlignment="Right">
+            <StackPanel x:Name="OutputPanel" Orientation="Vertical">
+                <StackPanel Orientation="Horizontal">
+
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+
         <CheckBox x:Name="ShowWelcomeCheckBox" Content="Показывать приветствие"
                   Grid.Row="0" Margin="5" HorizontalAlignment="Right" IsChecked="{Binding ShowWelcomeScreen, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                   Checked="WelcomeCheckBox_Checked"
                   Unchecked="WelcomeCheckBox_Unchecked"/>
+        <StackPanel Orientation="Horizontal" Margin="5" HorizontalAlignment="Left" Grid.Row="3">
+            <Button x:Name="SaveToFile" Content="Cохранить в файл" Margin="5" Height="30" Width="120" Click="SaveButton_Click"/>
+            <Button x:Name="GetToFile" Content="Загрузить из файла" Margin="5" Height="30" Width="120" Click="LoadButton_Click"/>
+        </StackPanel>
 
+        <Button x:Name="SaveGraphToFile" Content="Cохранить график" HorizontalAlignment= "Right" Margin="5" Height="30" Width="120" Click="SaveGraph_Click"  Grid.Row="3"/>
         <StackPanel Orientation="Vertical" HorizontalAlignment="Right" Grid.Row="2">
             <StackPanel Orientation= "Horizontal" >
                 <TextBlock Text="X"></TextBlock>
-                
+
             </StackPanel>
 
         </StackPanel>
@@ -58,12 +73,12 @@
             </StackPanel>
 
         </StackPanel>
-        
+
         <Button x:Name="PlotButton" Width="100" Height="50"
             Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Top"
             Content="Вычислить" Background="Black" Foreground="White" Margin="0,0,0,10"
             Click="PlotButton_Click"/>
-        
+
         <Canvas x:Name="Graph" Background="White" Grid.Row="5"/>
 
 

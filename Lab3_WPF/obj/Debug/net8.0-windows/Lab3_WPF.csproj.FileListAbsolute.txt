@@ -67,3 +67,4 @@ C:\Users\Вячеслав\Source\Repos\Function_plotting_WPF\Lab3_WPF\obj\Debug\
 C:\Users\Вячеслав\Source\Repos\Function_plotting_WPF\Lab3_WPF\obj\Debug\net8.0-windows\Lab3_WPF.genruntimeconfig.cache
 C:\Users\Вячеслав\Source\Repos\Function_plotting_WPF\Lab3_WPF\obj\Debug\net8.0-windows\ref\Lab3_WPF.dll
 C:\Users\Вячеслав\Source\Repos\Function_plotting_WPF\Lab3_WPF\bin\Debug\net8.0-windows\Lab3_WPF.dll.config
+C:\Users\User\Source\Repos\Function_plotting_WPF\Lab3_WPF\bin\Debug\net8.0-windows\Lab3_WPF.dll.config

@@ -1,5 +1,8 @@
-﻿using System;
+﻿using Lab3_WPF.File_manager;
+using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,6 +20,9 @@ namespace Lab3_WPF
 {
     public partial class Page2 : Page
     {
+        private double lastA, lastC, lastStep, lastStart, lastEnd;
+        private bool lastFlag;
+        private Dictionary<double, List<double>> lastValues = new();
         public Page2()
         {
             InitializeComponent();
@@ -43,6 +49,39 @@ namespace Lab3_WPF
             DrawGraph();
 
         }
+        private void SaveButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (!lastFlag)
+            {
+                MessageBox.Show("Нет данных для сохранения. Сначала постройте график.");
+                return;
+            }
+
+            FileSaver.SaveToFile(lastA, lastC, lastStep, lastStart, lastEnd, lastValues, lastFlag);
+        }
+        private void SaveGraph_Click(object sender, RoutedEventArgs e)
+        {
+            if (!lastFlag)
+            {
+                MessageBox.Show("Нет данных для сохранения. Сначала постройте график.");
+                return;
+            }
+
+            GraphExporter.SaveCanvasAsImage(Graph, lastFlag);
+        }
+        private void LoadButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (FileLoader.LoadFromFile(out double a, out double c, out double step, out double start, out double end))
+            {
+                InputA.Text = a.ToString();
+                InputC.Text = c.ToString();
+                InputStep.Text = step.ToString();
+                InputXStart.Text = start.ToString();
+                InputXEnd.Text = end.ToString();
+
+                MessageBox.Show("Данные успешно загружены!", "Загрузка", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+        }
         private void DrawGraph()
         {
             double start = default, a = default, c = default, step = default, end = default;
@@ -53,8 +92,16 @@ namespace Lab3_WPF
                 InputHandler.TryParse(InputXEnd.Text, out end)))
             { 
                 MessageBox.Show("Ошибка ввода. Проверьте значения.");
+                lastFlag = false;
                 return;
             }
+            if (start > end)
+            {
+                MessageBox.Show("Ошибка ввода. Начало интервала больше конца.");
+                lastFlag = false;
+                return;
+            }
+            
             double width = Graph.ActualWidth;
             double height = Graph.ActualHeight;
 
@@ -106,12 +153,43 @@ namespace Lab3_WPF
                     values[x].Add(y_lower);
                 }
             }
+            if (upperGraph.Points.Count == 0)
+            {
+                MessageBox.Show("Точки не попали в область интервала или отсутствуют");
+                lastFlag = false;
+                return;
+            }
 
             Graph.Children.Add(upperGraph);
             Graph.Children.Add(lowerGraph);
 
             // Добавим оси
             DrawAxes(start, end, minY, maxY, scaleX, scaleY, height);
+
+            OutputPanel.Children.Clear();
+            foreach (var points in values)
+            {
+                double x = points.Key;
+                if (points.Value.Count > 0)
+                {
+                    double y = Math.Abs(points.Value[0]);
+
+                    TextBlock newBlock = new TextBlock
+                    {
+                        Text = $"x = {x:0.####}, y = ±{y:0.####}",
+                        Margin = new Thickness(5, 2, 5, 2)
+                    };
+
+                    OutputPanel.Children.Add(newBlock);
+                }
+            }
+            lastA = a;
+            lastC = c;
+            lastStep = step;
+            lastStart = start;
+            lastEnd = end;
+            lastValues = values;
+            lastFlag = true;
         }
         private void DrawAxes(double xStart, double xEnd, double yMin, double yMax, double scaleX, double scaleY, double height)
         {
