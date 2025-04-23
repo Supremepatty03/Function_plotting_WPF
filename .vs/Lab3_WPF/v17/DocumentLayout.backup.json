@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\Function_plotting_WPF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B568887A-681D-4D57-AA9B-B5EF8DA91887}|Lab3_WPF\\Lab3_WPF.csproj|c:\\users\\user\\source\\repos\\function_plotting_wpf\\lab3_wpf\\page2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B568887A-681D-4D57-AA9B-B5EF8DA91887}|Lab3_WPF\\Lab3_WPF.csproj|solutionrelative:lab3_wpf\\page2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B568887A-681D-4D57-AA9B-B5EF8DA91887}|Lab3_WPF\\Lab3_WPF.csproj|c:\\users\\user\\source\\repos\\function_plotting_wpf\\lab3_wpf\\page2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B568887A-681D-4D57-AA9B-B5EF8DA91887}|Lab3_WPF\\Lab3_WPF.csproj|solutionrelative:lab3_wpf\\page2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B568887A-681D-4D57-AA9B-B5EF8DA91887}|Lab3_WPF\\Lab3_WPF.csproj|c:\\users\\user\\source\\repos\\function_plotting_wpf\\lab3_wpf\\file manager\\graphexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B568887A-681D-4D57-AA9B-B5EF8DA91887}|Lab3_WPF\\Lab3_WPF.csproj|solutionrelative:lab3_wpf\\file manager\\graphexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B568887A-681D-4D57-AA9B-B5EF8DA91887}|Lab3_WPF\\Lab3_WPF.csproj|c:\\users\\user\\source\\repos\\function_plotting_wpf\\lab3_wpf\\file manager\\fileloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B568887A-681D-4D57-AA9B-B5EF8DA91887}|Lab3_WPF\\Lab3_WPF.csproj|solutionrelative:lab3_wpf\\file manager\\fileloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B568887A-681D-4D57-AA9B-B5EF8DA91887}|Lab3_WPF\\Lab3_WPF.csproj|c:\\users\\user\\source\\repos\\function_plotting_wpf\\lab3_wpf\\file manager\\filewriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B568887A-681D-4D57-AA9B-B5EF8DA91887}|Lab3_WPF\\Lab3_WPF.csproj|solutionrelative:lab3_wpf\\file manager\\filewriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B568887A-681D-4D57-AA9B-B5EF8DA91887}|Lab3_WPF\\Lab3_WPF.csproj|c:\\users\\user\\source\\repos\\function_plotting_wpf\\lab3_wpf\\addons4graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B568887A-681D-4D57-AA9B-B5EF8DA91887}|Lab3_WPF\\Lab3_WPF.csproj|solutionrelative:lab3_wpf\\addons4graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B568887A-681D-4D57-AA9B-B5EF8DA91887}|Lab3_WPF\\Lab3_WPF.csproj|c:\\users\\user\\source\\repos\\function_plotting_wpf\\lab3_wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -31,12 +19,8 @@
       "RelativeMoniker": "D:0:0:{B568887A-681D-4D57-AA9B-B5EF8DA91887}|Lab3_WPF\\Lab3_WPF.csproj|solutionrelative:lab3_wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B568887A-681D-4D57-AA9B-B5EF8DA91887}|Lab3_WPF\\Lab3_WPF.csproj|C:\\Users\\User\\source\\repos\\Function_plotting_WPF\\lab3_wpf\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
-      "RelativeMoniker": "D:0:0:{B568887A-681D-4D57-AA9B-B5EF8DA91887}|Lab3_WPF\\Lab3_WPF.csproj|solutionrelative:lab3_wpf\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B568887A-681D-4D57-AA9B-B5EF8DA91887}|Lab3_WPF\\Lab3_WPF.csproj|c:\\users\\user\\source\\repos\\function_plotting_wpf\\lab3_wpf\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B568887A-681D-4D57-AA9B-B5EF8DA91887}|Lab3_WPF\\Lab3_WPF.csproj|solutionrelative:lab3_wpf\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B568887A-681D-4D57-AA9B-B5EF8DA91887}|Lab3_WPF\\Lab3_WPF.csproj|c:\\users\\user\\source\\repos\\function_plotting_wpf\\lab3_wpf\\page2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B568887A-681D-4D57-AA9B-B5EF8DA91887}|Lab3_WPF\\Lab3_WPF.csproj|solutionrelative:lab3_wpf\\page2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B568887A-681D-4D57-AA9B-B5EF8DA91887}|Lab3_WPF\\Lab3_WPF.csproj|c:\\users\\user\\source\\repos\\function_plotting_wpf\\lab3_wpf\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,8 +35,24 @@
       "RelativeMoniker": "D:0:0:{B568887A-681D-4D57-AA9B-B5EF8DA91887}|Lab3_WPF\\Lab3_WPF.csproj|solutionrelative:lab3_wpf\\inputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B568887A-681D-4D57-AA9B-B5EF8DA91887}|Lab3_WPF\\Lab3_WPF.csproj|c:\\users\\user\\source\\repos\\function_plotting_wpf\\lab3_wpf\\unknown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B568887A-681D-4D57-AA9B-B5EF8DA91887}|Lab3_WPF\\Lab3_WPF.csproj|solutionrelative:lab3_wpf\\unknown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B568887A-681D-4D57-AA9B-B5EF8DA91887}|Lab3_WPF\\Lab3_WPF.csproj|c:\\users\\user\\source\\repos\\function_plotting_wpf\\lab3_wpf\\file manager\\graphexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B568887A-681D-4D57-AA9B-B5EF8DA91887}|Lab3_WPF\\Lab3_WPF.csproj|solutionrelative:lab3_wpf\\file manager\\graphexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B568887A-681D-4D57-AA9B-B5EF8DA91887}|Lab3_WPF\\Lab3_WPF.csproj|c:\\users\\user\\source\\repos\\function_plotting_wpf\\lab3_wpf\\file manager\\filewriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B568887A-681D-4D57-AA9B-B5EF8DA91887}|Lab3_WPF\\Lab3_WPF.csproj|solutionrelative:lab3_wpf\\file manager\\filewriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B568887A-681D-4D57-AA9B-B5EF8DA91887}|Lab3_WPF\\Lab3_WPF.csproj|c:\\users\\user\\source\\repos\\function_plotting_wpf\\lab3_wpf\\file manager\\fileloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B568887A-681D-4D57-AA9B-B5EF8DA91887}|Lab3_WPF\\Lab3_WPF.csproj|solutionrelative:lab3_wpf\\file manager\\fileloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B568887A-681D-4D57-AA9B-B5EF8DA91887}|Lab3_WPF\\Lab3_WPF.csproj|C:\\Users\\User\\source\\repos\\Function_plotting_WPF\\lab3_wpf\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{B568887A-681D-4D57-AA9B-B5EF8DA91887}|Lab3_WPF\\Lab3_WPF.csproj|solutionrelative:lab3_wpf\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B568887A-681D-4D57-AA9B-B5EF8DA91887}|Lab3_WPF\\Lab3_WPF.csproj|c:\\users\\user\\source\\repos\\function_plotting_wpf\\lab3_wpf\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B568887A-681D-4D57-AA9B-B5EF8DA91887}|Lab3_WPF\\Lab3_WPF.csproj|solutionrelative:lab3_wpf\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B568887A-681D-4D57-AA9B-B5EF8DA91887}|Lab3_WPF\\Lab3_WPF.csproj|c:\\users\\user\\source\\repos\\function_plotting_wpf\\lab3_wpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -84,7 +84,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -96,95 +96,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Settings.settings",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Function_plotting_WPF\\Lab3_WPF\\Properties\\Settings.settings",
-              "RelativeDocumentMoniker": "Lab3_WPF\\Properties\\Settings.settings",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\Function_plotting_WPF\\Lab3_WPF\\Properties\\Settings.settings",
-              "RelativeToolTip": "Lab3_WPF\\Properties\\Settings.settings",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
-              "WhenOpened": "2025-04-18T11:31:50.336Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Function_plotting_WPF\\Lab3_WPF\\App.config",
-              "RelativeDocumentMoniker": "Lab3_WPF\\App.config",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\Function_plotting_WPF\\Lab3_WPF\\App.config",
-              "RelativeToolTip": "Lab3_WPF\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-04-18T11:38:42.55Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Function_plotting_WPF\\Lab3_WPF\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Lab3_WPF\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\Function_plotting_WPF\\Lab3_WPF\\MainWindow.xaml.cs",
-              "RelativeToolTip": "Lab3_WPF\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T12:07:34.638Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FileWriter.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Function_plotting_WPF\\Lab3_WPF\\File manager\\FileWriter.cs",
-              "RelativeDocumentMoniker": "Lab3_WPF\\File manager\\FileWriter.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\Function_plotting_WPF\\Lab3_WPF\\File manager\\FileWriter.cs",
-              "RelativeToolTip": "Lab3_WPF\\File manager\\FileWriter.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAkwCIAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T18:58:23.994Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Page2.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Function_plotting_WPF\\Lab3_WPF\\Page2.xaml",
-              "RelativeDocumentMoniker": "Lab3_WPF\\Page2.xaml",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\Function_plotting_WPF\\Lab3_WPF\\Page2.xaml*",
-              "RelativeToolTip": "Lab3_WPF\\Page2.xaml*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-11T12:24:58.625Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Page2.xaml.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Function_plotting_WPF\\Lab3_WPF\\Page2.xaml.cs",
               "RelativeDocumentMoniker": "Lab3_WPF\\Page2.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\Function_plotting_WPF\\Lab3_WPF\\Page2.xaml.cs",
-              "RelativeToolTip": "Lab3_WPF\\Page2.xaml.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAuwEYAAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Function_plotting_WPF\\Lab3_WPF\\Page2.xaml.cs*",
+              "RelativeToolTip": "Lab3_WPF\\Page2.xaml.cs*",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAmwJ8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-11T12:24:59.994Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "GraphExporter.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Source\\Repos\\Function_plotting_WPF\\Lab3_WPF\\File manager\\GraphExporter.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Function_plotting_WPF\\Lab3_WPF\\File manager\\GraphExporter.cs",
               "RelativeDocumentMoniker": "Lab3_WPF\\File manager\\GraphExporter.cs",
-              "ToolTip": "C:\\Users\\User\\Source\\Repos\\Function_plotting_WPF\\Lab3_WPF\\File manager\\GraphExporter.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Function_plotting_WPF\\Lab3_WPF\\File manager\\GraphExporter.cs",
               "RelativeToolTip": "Lab3_WPF\\File manager\\GraphExporter.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAwwBQAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-19T18:27:55.157Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "FileLoader.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Function_plotting_WPF\\Lab3_WPF\\File manager\\FileLoader.cs",
               "RelativeDocumentMoniker": "Lab3_WPF\\File manager\\FileLoader.cs",
@@ -208,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Function_plotting_WPF\\Lab3_WPF\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Lab3_WPF\\MainWindow.xaml",
@@ -244,7 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Function_plotting_WPF\\Lab3_WPF\\App.xaml.cs",
               "RelativeDocumentMoniker": "Lab3_WPF\\App.xaml.cs",
@@ -256,43 +194,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
               "Title": "Cassini.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Function_plotting_WPF\\Lab3_WPF\\Cassini.cs",
               "RelativeDocumentMoniker": "Lab3_WPF\\Cassini.cs",
               "ToolTip": "C:\\Users\\User\\source\\repos\\Function_plotting_WPF\\Lab3_WPF\\Cassini.cs",
               "RelativeToolTip": "Lab3_WPF\\Cassini.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAWwCIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T20:49:07.654Z"
+              "WhenOpened": "2025-04-16T20:49:07.654Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "unknown.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Function_plotting_WPF\\Lab3_WPF\\unknown.cs",
-              "RelativeDocumentMoniker": "Lab3_WPF\\unknown.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\Function_plotting_WPF\\Lab3_WPF\\unknown.cs",
-              "RelativeToolTip": "Lab3_WPF\\unknown.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Addons4Graph.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Source\\Repos\\Function_plotting_WPF\\Lab3_WPF\\Addons4Graph.cs",
+              "RelativeDocumentMoniker": "Lab3_WPF\\Addons4Graph.cs",
+              "ToolTip": "C:\\Users\\User\\Source\\Repos\\Function_plotting_WPF\\Lab3_WPF\\Addons4Graph.cs*",
+              "RelativeToolTip": "Lab3_WPF\\Addons4Graph.cs*",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAwC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T18:35:16.442Z"
+              "WhenOpened": "2025-04-16T18:35:16.442Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "InputHandler.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Function_plotting_WPF\\Lab3_WPF\\InputHandler.cs",
-              "RelativeDocumentMoniker": "Lab3_WPF\\InputHandler.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\Function_plotting_WPF\\Lab3_WPF\\InputHandler.cs",
-              "RelativeToolTip": "Lab3_WPF\\InputHandler.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAcwBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T18:40:44.887Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Function_plotting_WPF\\Lab3_WPF\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "Lab3_WPF\\AssemblyInfo.cs",
@@ -300,7 +228,82 @@
               "RelativeToolTip": "Lab3_WPF\\AssemblyInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T12:51:43.654Z"
+              "WhenOpened": "2025-03-14T12:51:43.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InputHandler.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Function_plotting_WPF\\Lab3_WPF\\InputHandler.cs",
+              "RelativeDocumentMoniker": "Lab3_WPF\\InputHandler.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Function_plotting_WPF\\Lab3_WPF\\InputHandler.cs",
+              "RelativeToolTip": "Lab3_WPF\\InputHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T18:40:44.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Function_plotting_WPF\\Lab3_WPF\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Lab3_WPF\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Function_plotting_WPF\\Lab3_WPF\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Lab3_WPF\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:07:34.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Page2.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Function_plotting_WPF\\Lab3_WPF\\Page2.xaml",
+              "RelativeDocumentMoniker": "Lab3_WPF\\Page2.xaml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Function_plotting_WPF\\Lab3_WPF\\Page2.xaml",
+              "RelativeToolTip": "Lab3_WPF\\Page2.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-11T12:24:58.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FileWriter.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Function_plotting_WPF\\Lab3_WPF\\File manager\\FileWriter.cs",
+              "RelativeDocumentMoniker": "Lab3_WPF\\File manager\\FileWriter.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Function_plotting_WPF\\Lab3_WPF\\File manager\\FileWriter.cs",
+              "RelativeToolTip": "Lab3_WPF\\File manager\\FileWriter.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAkwCIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T18:58:23.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Function_plotting_WPF\\Lab3_WPF\\App.config",
+              "RelativeDocumentMoniker": "Lab3_WPF\\App.config",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Function_plotting_WPF\\Lab3_WPF\\App.config",
+              "RelativeToolTip": "Lab3_WPF\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-04-18T11:38:42.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Settings.settings",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Function_plotting_WPF\\Lab3_WPF\\Properties\\Settings.settings",
+              "RelativeDocumentMoniker": "Lab3_WPF\\Properties\\Settings.settings",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Function_plotting_WPF\\Lab3_WPF\\Properties\\Settings.settings",
+              "RelativeToolTip": "Lab3_WPF\\Properties\\Settings.settings",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
+              "WhenOpened": "2025-04-18T11:31:50.336Z"
             },
             {
               "$type": "Document",

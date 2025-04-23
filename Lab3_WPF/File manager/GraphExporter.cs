@@ -17,7 +17,6 @@ namespace Lab3_WPF.File_manager
     {
         public static void SaveCanvasAsImage(Canvas canvas, bool flag)
         {
-            // Открываем диалог сохранения
             SaveFileDialog dlg = new SaveFileDialog
             {
                 Title = "Сохранить график как изображение",
@@ -27,7 +26,7 @@ namespace Lab3_WPF.File_manager
 
             if (dlg.ShowDialog() == true)
             {
-                // Создаем рендер изображения
+                // рендер изображения
                 Rect bounds = VisualTreeHelper.GetDescendantBounds(canvas);
                 double dpi = 96d;
 
@@ -43,7 +42,7 @@ namespace Lab3_WPF.File_manager
                 }
                 rtb.Render(dv);
 
-                // Сохраняем в файл
+                // сохраняем в файл
                 using (FileStream fs = new FileStream(dlg.FileName, FileMode.Create))
                 {
                     PngBitmapEncoder encoder = new PngBitmapEncoder();

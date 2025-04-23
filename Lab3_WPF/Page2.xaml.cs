@@ -85,23 +85,10 @@ namespace Lab3_WPF
         private void DrawGraph()
         {
             double start = default, a = default, c = default, step = default, end = default;
-            if (!(InputHandler.TryParse(InputA.Text, out a) &&
-                InputHandler.TryParse(InputC.Text, out c) &&
-                InputHandler.TryParse(InputStep.Text, out step) &&
-                InputHandler.TryParse(InputXStart.Text, out start) &&
-                InputHandler.TryParse(InputXEnd.Text, out end)))
-            { 
-                MessageBox.Show("Ошибка ввода. Проверьте значения.");
-                lastFlag = false;
-                return;
-            }
-            if (start > end)
-            {
-                MessageBox.Show("Ошибка ввода. Начало интервала больше конца.");
-                lastFlag = false;
-                return;
-            }
-            
+
+            if (!(Addons4Graph.InputCheck(InputA.Text, InputC.Text, InputStep.Text, InputXStart.Text, InputXEnd.Text,
+                out a, out c, out step, out start, out end))) { lastFlag = false; return; }
+
             double width = Graph.ActualWidth;
             double height = Graph.ActualHeight;
 
@@ -153,6 +140,7 @@ namespace Lab3_WPF
                     values[x].Add(y_lower);
                 }
             }
+
             if (upperGraph.Points.Count == 0)
             {
                 MessageBox.Show("Точки не попали в область интервала или отсутствуют");
@@ -167,22 +155,9 @@ namespace Lab3_WPF
             DrawAxes(start, end, minY, maxY, scaleX, scaleY, height);
 
             OutputPanel.Children.Clear();
-            foreach (var points in values)
-            {
-                double x = points.Key;
-                if (points.Value.Count > 0)
-                {
-                    double y = Math.Abs(points.Value[0]);
 
-                    TextBlock newBlock = new TextBlock
-                    {
-                        Text = $"x = {x:0.####}, y = ±{y:0.####}",
-                        Margin = new Thickness(5, 2, 5, 2)
-                    };
+            Addons4Graph.DrawTable(values, OutputPanel);
 
-                    OutputPanel.Children.Add(newBlock);
-                }
-            }
             lastA = a;
             lastC = c;
             lastStep = step;
