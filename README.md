@@ -40,13 +40,21 @@
 
 Lab3_WPF/
 ├── App.xaml / App.xaml.cs # Настройка запуска
+
 ├── MainWindow.xaml/.cs # Приветственное окно
+
 ├── Page2.xaml/.cs # Основная логика и UI
+
 ├── Cassini.cs # Вычисление координат кривой
+
 ├── FileSaver.cs / FileLoader.cs # Сохранение и загрузка данных
+
 ├── GraphExporter.cs # Сохранение графика как изображения
+
 ├── Addons4Graph.cs # Таблица и проверка значений
+
 ├── InputHandler.cs # Универсальный ввод
+
 ├── Resources/ # Статические ресурсы (иконки и т.д.)
 
 ---
